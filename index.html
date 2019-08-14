@@ -70,52 +70,18 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					<div class="header-section">
 						<!--menu-right-->
 						<div class="top_menu">
-							<div class="main-search">
-								<form>
-									<input
-										type="text"
-										value="Search"
-										onFocus="this.value = '';"
-										onBlur="if (this.value == '') {this.value = 'Search';}"
-										class="text"
-									/>
-									<input type="submit" value="" />
-								</form>
-								<div class="close">
-									<img src="images/cross.png" />
-								</div>
-							</div>
-							<div class="srch"><button></button></div>
-							<script type="text/javascript">
-								$(".main-search").hide();
-								$("button").click(function() {
-									$(".main-search").show();
-									$(".main-search text").focus();
-								});
-								$(".close").click(function() {
-									$(".main-search").hide();
-								});
-							</script>
 							<!--/profile_details-->
 							<div class="profile_details_left">
 								<ul class="nofitications-dropdown">
 									<li class="dropdown note dra-down">
-										<div
-											id="dd"
-											class="wrapper-dropdown-3"
-											tabindex="1"
-										>
+										<div id="dd" class="wrapper-dropdown-3" tabindex="1">
 											<span>Italy</span>
 											<ul class="dropdown">
 												<li>
-													<a class="deutsch"
-														>France</a
-													>
+													<a class="deutsch">France</a>
 												</li>
 												<li>
-													<a class="english">
-														Italy</a
-													>
+													<a class="english">Italy</a>
 												</li>
 												<li>
 													<a class="espana">Brazil</a>
@@ -128,12 +94,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 										<script type="text/javascript">
 											function DropDown(el) {
 												this.dd = el;
-												this.placeholder = this.dd.children(
-													"span"
-												);
-												this.opts = this.dd.find(
-													"ul.dropdown > li"
-												);
+												this.placeholder = this.dd.children("span");
+												this.opts = this.dd.find("ul.dropdown > li");
 												this.val = "";
 												this.index = -1;
 												this.initEvents();
@@ -141,27 +103,17 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 											DropDown.prototype = {
 												initEvents: function() {
 													var obj = this;
-
-													obj.dd.on("click", function(
-														event
-													) {
-														$(this).toggleClass(
-															"active"
-														);
-														return false;
+													obj.dd.on("click", function(event) {
+														$(this).toggleClass("active");
+															return false;
 													});
 
-													obj.opts.on(
-														"click",
-														function() {
-															var opt = $(this);
-															obj.val = opt.text();
-															obj.index = opt.index();
-															obj.placeholder.text(
-																obj.val
-															);
-														}
-													);
+													obj.opts.on("click", function() {
+														var opt = $(this);
+														obj.val = opt.text();
+														obj.index = opt.index();
+														obj.placeholder.text(obj.val);
+													});
 												},
 												getValue: function() {
 													return this.val;
@@ -583,7 +535,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					<ul id="menu">
 						<li onclick="agileUIController('pages/dashboard.html')"><a href="javascript:void(0)"><i class="fa fa-dashboard"></i><span>Dashboard</span></a></li>
 						<li id="menu-academico">
-							<a href="javascript:void(0)"><i class="fas fa-bed"></i>
+							<a href="javascript:void(0)"><i class="fa fa-bed"></i>
 								<span> Reservations</span><span class="fa fa-angle-right" style="float: right"></span>
 							</a>
 							<ul id="menu-academico-sub">
@@ -793,10 +745,9 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		<script type="text/javascript" src="js/TweenLite.min.js"></script>
 		<script type="text/javascript" src="js/CSSPlugin.min.js"></script>
 		<script src="js/jquery.nicescroll.js"></script>
-		<script src="js/scripts.js"></script>
 		<!-- Bootstrap Core JavaScript -->
 		<script src="js/bootstrap.min.js"></script>
-		<script src="js/main.js"></script>
+		<script src="js/scripts.js"></script>
 		<script>
 			function agileUIController(pageSource){
 				$('.outter-wp').load(pageSource);
