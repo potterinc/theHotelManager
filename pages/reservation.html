@@ -309,11 +309,11 @@
                     </div>
                     <div class="input-group">
                         <span class="input-group-addon"><i class="fa fa-clock-o"></i></span>
-                        <input type="number" class="form-control1 input-sm icon" placeholder="Duration" />
+                        <input type="number" min="1" class="form-control1 input-sm icon" placeholder="Duration" />
                     </div>
 					<div class="form-group">
 						<h4>
-							<span class="label label-default w3-cyan">Balance: &#8358;&nbsp;<balance id="balance" class="w3-text-white">5000</balance></span>
+							<span class="label label-default w3-cyan">Balance: &#8358;&nbsp;<balance id="balance" class="w3-text-white"></balance></span>
 						</h4>
 					</div>
                 </div>
@@ -322,10 +322,6 @@
                         <span><i class="fa fa-money"></i> Room Rate</span>
                         <input type="number" class="form-control1 input-sm" id="rate" disabled />
 						<input hidden value="35000" id="room-rate" />
-                    </div>
-                    <div class="input-group">
-                        <span class="input-group-addon">&#8358;</span>
-                        <input type="number" class="form-control1 input-sm icon" placeholder="Deposit" />
                     </div>
                     <div class="form-group w3-margin-top">
                         <select id="discount-rates" class="form-control1">
@@ -336,6 +332,10 @@
                             <option value="15">15%</option>
                             <option value="20">20%</option>
                         </select>
+                    </div>
+                    <div class="input-group">
+                        <span class="input-group-addon">&#8358;</span>
+                        <input type="number" class="form-control1 input-sm icon" id="deposit" placeholder="Deposit" />
                     </div>
                     <div class="form-group w3-margin-top">
                         <select id="payment-method" class="form-control1">
