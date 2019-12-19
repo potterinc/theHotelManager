@@ -36,4 +36,4 @@ This project could be achieved Web based or Native Software
 
 
 # Methodology
- - SCRUM PRINCIPLES
+ - Scrum Principles
