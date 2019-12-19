@@ -33,3 +33,7 @@ This project could be achieved Web based or Native Software
  - Manage Housekeeping operations
  - Guest Interaction (Offline/Online)
  - Manages Online Bookings, Travels & Tourism
+
+
+# Methodology
+ - SCRUM PRINCIPLES
