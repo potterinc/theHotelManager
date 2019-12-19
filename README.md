@@ -1,4 +1,4 @@
-# theHotelManager
+# The Hotel Manager
 This Software, should function as an hotel manager, Auditor, Front-Office Manager, Restaurant & Bar Manager, House Keeping, Accounting and Property Management, Store management, Inventory of General Items in Hotel Operations,
 
 # features:
