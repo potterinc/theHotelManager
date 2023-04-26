@@ -1,27 +1,40 @@
-# Rezman
+# The Hotel Manager
+This Software, should function as an hotel manager, Auditor, Front-Office Manager, Restaurant & Bar Manager, House Keeping, Accounting and Property Management, Store management, Inventory of General Items in Hotel Operations,
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.4.
+# features:
+- Live Chat
+- Customer Management Features
+- Access control (Electronic keycard)
+- Online Integration of reservations made via online portal
+- Passport/Identity card scanner
+- Administrative Privileges
+- Intranet/LAN/ Connectivity
+- Inventory / Sales
+- Accounting/Auditing
+- Settings (Back Office)
 
-## Development server
+This project could be achieved Web based or Native Software
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+# DEPARTMENTS
+- FrontDesk
+- Food & Beverages
+- Store
+- Human Resources
+- Internal Audit
+- Human Resources
+- Marketing
+- Maintenance
+- Back Office
 
-## Code scaffolding
+# FrontDesk
+ - Reservations
+ - Check Room Availability & Status
+ - Guest Bills & Orders
+ - Manage Housekeeping operations
+ - Guest Interaction (Offline/Online)
+ - Manages Online Bookings, Travels & Tourism
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
+# Methodology
+ - Scrum Principles
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
